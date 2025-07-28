@@ -1,0 +1,21 @@
+{
+  "name": "notes-platform",
+  "version": "1.0.0",
+  "description": "A simple notes platform for Cypress E2E and CI/CD practice.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ejs": "^3.1.9",
+    "sqlite3": "^5.1.6",
+    "express-session": "^1.17.3",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+} 
